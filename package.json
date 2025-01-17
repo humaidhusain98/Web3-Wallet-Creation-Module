@@ -1,0 +1,33 @@
+{
+  "name": "web3-wallet-creation-module",
+  "version": "1.0.0",
+  "description": "This project involves creating automatic web3 wallets, encrypting private key and managing it for Social and Custom Logins.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humaidhusain98/Web3-Wallet-Creation-Module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humaidhusain98/Web3-Wallet-Creation-Module/issues"
+  },
+  "homepage": "https://github.com/humaidhusain98/Web3-Wallet-Creation-Module#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9"
+  }
+}
